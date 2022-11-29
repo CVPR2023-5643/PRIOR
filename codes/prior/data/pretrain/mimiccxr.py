@@ -6,7 +6,7 @@ sys.path.append(os.getcwd())
 from transformers import AutoTokenizer
 from prior.data.pretrain.base import PretrainDataset
 from prior.data.pretrain.text_process import SentenceSplitter, split_into_sections
-from prior.transoforms.language import SentenceShuffle
+from prior.transforms.language import SentenceShuffle
 import matplotlib.pyplot as plt
 import pydicom
 import logging
